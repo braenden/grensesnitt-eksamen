@@ -1,0 +1,1 @@
+##Dette er vår løsning tiltenkt Studentklinikken.
