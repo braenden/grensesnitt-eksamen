@@ -1,8 +1,27 @@
 import Vue from 'vue'
-import App from './App.vue'
+import homePage from './homePage.vue'
+import contact from '../src/pages/contact'
 
 Vue.config.productionTip = false
 
+
+const routes = {
+  "/": homePage,
+  "/contact": contact
+}
+
 new Vue({
-  render: h => h(App),
+
+  data: {
+    currentRoute: window.location.pathname,
+  },
+
+  computed: {
+    currentComponent(){
+ return routes[this.currentRoute];
+    }
+  },
+  render: function (h) {
+    return h(this.currentComponent);
+  }
 }).$mount('#app')
