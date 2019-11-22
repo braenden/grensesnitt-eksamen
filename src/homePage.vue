@@ -1,10 +1,16 @@
 <template>
   <div id="app">
+    <ul>
+      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/user/123">User</router-link></li>
+      <li><router-link to="/contact">Contact</router-link></li>
+      </ul>
     <img alt="Vue logo" src="./assets/johannesBrodwall.jpeg">
-    <HelloWorld msg="Velkommen til Studentklinikken"/>
+    <router-view></router-view>
   </div>
 </template>
 
+<!--
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 
@@ -15,6 +21,8 @@ export default {
   }
 }
 </script>
+
+-->
 
 <style>
 #app {
