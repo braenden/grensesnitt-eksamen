@@ -1,9 +1,13 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import homePage from './homePage.vue';
-import HelloWorld from './components/HelloWorld';
-import Contact from './components/contact'
-import User from './components/user'
+import App from './app.vue';
+import Contact from './pages/contact'
+import HomePage from './pages/homePage'
+import Booking from './pages/booking'
+import Cancellation from './pages/cancellation'
+import AboutUs from './pages/aboutUs'
+import YourReservations from './pages/yourReservations'
+
 
 Vue.use(VueRouter);
 
@@ -11,16 +15,19 @@ Vue.config.productionTip = false
 
 const router = new VueRouter({
 routes: [
-  { path: "/", component: HelloWorld },
+  { path: "/", component: HomePage },
   { path: "/contact", component: Contact },
-  { path: "/user/:id", component: User },
+  { path: "/booking", component: Booking },
+  { path: "/cancellation", component: Cancellation },
+  { path: "/aboutUs", component: AboutUs },
+  { path: "/yourReservations", component: YourReservations },
 ],
 mode: "history"
 });
 
 new Vue({
   router, 
-  render: h => h(homePage),
+  render: h => h(App),
 }).$mount('#app')
 
 

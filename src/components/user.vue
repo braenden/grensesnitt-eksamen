@@ -1,7 +1,7 @@
 <template>
     <div>
             <h1>
-                {{ $routekk.params.id }}
+                {{ $route.params.id }}
             </h1>
     </div>
 </template>
@@ -10,4 +10,4 @@
 export default {
     name: "User"
 }
-</script>
+</script> 

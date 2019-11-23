@@ -2,27 +2,17 @@
   <div id="app">
     <ul>
       <li><router-link to="/">Home</router-link></li>
-      <li><router-link to="/user/123">User</router-link></li>
       <li><router-link to="/contact">Contact</router-link></li>
+      <li><router-link to="/booking">Booking</router-link></li>
+      <li><router-link to="/cancellation">Cancellation</router-link></li>
+      <li><router-link to="/aboutUs">About us</router-link></li>
+      <li><router-link to="/yourReservations">See your reservations</router-link></li>
       </ul>
-    <img alt="Vue logo" src="./assets/johannesBrodwall.jpeg">
+    <img src="./assets/johannesBrodwall.jpeg">
     <router-view></router-view>
   </div>
 </template>
 
-<!--
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
-</script>
-
--->
 
 <style>
 #app {
