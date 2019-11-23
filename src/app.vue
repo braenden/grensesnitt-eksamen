@@ -1,15 +1,16 @@
 <template>
   <div id="app">
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
     <navbar></navbar>
     <router-view></router-view>
 
       <ul>
-      <li><router-link to="/">Home</router-link></li>
-      <li><router-link to="/contact">Contact</router-link></li>
-      <li><router-link to="/booking">Booking</router-link></li>
-      <li><router-link to="/cancellation">Cancellation</router-link></li>
-      <li><router-link to="/aboutUs">About us</router-link></li>
-      <li><router-link to="/yourReservations">See your reservations</router-link></li>
+      <router-link to="/">Home</router-link><br>
+      <router-link to="/contact">Contact</router-link><br>
+      <router-link to="/booking">Booking</router-link><br>
+      <router-link to="/cancellation">Cancellation</router-link><br>
+      <router-link to="/aboutUs">About us</router-link><br>
+      <router-link to="/yourReservations">See your reservations</router-link>
       </ul>
 
   </div>
@@ -33,6 +34,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-  background-color: aqua;
+  background-color: white;
 }
 </style>

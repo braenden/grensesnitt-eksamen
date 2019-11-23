@@ -1,7 +1,6 @@
 <template>
     <div>
-        <img id="kristianiaLogo" src="../assets/kristiania.jpeg">
-        <h1>Velkommen til Studentklinikken</h1>
+        <img id="johannes" src="../assets/johannesBrodwall.jpeg">
     </div>
 </template>
 
@@ -10,15 +9,13 @@ export default {
     name: "homePage"
 }
 </script>
-
 <style>
-
-#kristianiaLogo {
-width: 100px;
-height: 100px;
+#welcomeHeader{
+    font-size: 30px;
+}
+#johannes {
+    width: 300px;
+    height: 300px;
 }
 
-#h1{
-    font-family: fantasy;
-}
 </style>
