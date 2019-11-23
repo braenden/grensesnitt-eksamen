@@ -10,20 +10,22 @@
 #kristianiaLogo {
 width: 60px;
 height: 60px;
-margin-left: 20px;
+margin-left: 0px;
 }
 
 #studentHeader {
     font-size: 30px;
-    margin-right: 40px;
+    margin-right: 20px;
+    color: black;
 }
 
 #loginBtn {
     color: black;
     text-decoration: none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 #navbar {
-    margin-top: -30px;
+    margin-top: -40px;
     display: flex;
     align-items: center;
 }

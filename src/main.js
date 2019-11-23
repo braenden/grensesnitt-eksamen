@@ -8,6 +8,7 @@ import Cancellation from './pages/cancellation'
 import AboutUs from './pages/aboutUs'
 import YourReservations from './pages/yourReservations'
 import Login from './pages/login'
+import Staff from './pages/staff'
 
 
 Vue.use(VueRouter);
@@ -22,7 +23,8 @@ routes: [
   { path: "/cancellation", component: Cancellation },
   { path: "/aboutUs", component: AboutUs },
   { path: "/yourReservations", component: YourReservations },
-  { path: "/login", component: Login }
+  { path: "/login", component: Login },
+  { path: "/staff", component: Staff }
 ],
 mode: "history"
 });

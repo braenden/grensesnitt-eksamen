@@ -1,18 +1,8 @@
 <template>
   <div id="app">
-    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
     <navbar></navbar>
     <router-view></router-view>
-
-      <ul>
-      <router-link to="/">Home</router-link><br>
-      <router-link to="/contact">Contact</router-link><br>
-      <router-link to="/booking">Booking</router-link><br>
-      <router-link to="/cancellation">Cancellation</router-link><br>
-      <router-link to="/aboutUs">About us</router-link><br>
-      <router-link to="/yourReservations">See your reservations</router-link>
-      </ul>
-
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
   </div>
 </template>
 
