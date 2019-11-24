@@ -23,7 +23,7 @@ export default {
 <style>
 
 .bigBtn {
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     text-decoration: none;
     display: inline-block;

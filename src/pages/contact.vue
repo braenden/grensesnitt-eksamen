@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>Pisstryne</p>
+        <h1>Kontakt oss</h1>
     </div>
 </template>
 
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 
 </style>
