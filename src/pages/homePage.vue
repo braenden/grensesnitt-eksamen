@@ -23,18 +23,18 @@ export default {
 <style>
 
 .bigBtn {
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
     display: inline-block;
-    height: 45px;
+    height: 50px;
     width: 300px;
     font-weight: bold;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 0px 0px 1px 0px black;
     margin-left: -40px;
     margin-top: 12px;
-    padding-top: 30px;
+    padding-top: 25px;
     
 }
 
