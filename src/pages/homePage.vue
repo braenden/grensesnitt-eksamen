@@ -35,7 +35,6 @@ export default {
     margin-left: -40px;
     margin-top: 12px;
     padding-top: 25px;
-    
 }
 
 #contactBtn {

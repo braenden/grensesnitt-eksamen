@@ -2,7 +2,7 @@
     <div>
         <hr id="line2">
         <h1 class="adjustment" id="headline6">Kontakt oss</h1>
-        <p class="adjustment" id="info2">Telefon: 971 17 690<br>Epost: <a href="mailto:studentklinikken@kristiania.no?">studentklinikken@kristiania.no</a> <br></p>
+        <p class="adjustment" id="info2">Telefon: 971 17 690<br>E-post: <a href="mailto:studentklinikken@kristiania.no?">studentklinikken@kristiania.no</a> <br></p>
 
 
         <h2 class="adjustment">Gi oss din tilbakemelding</h2>
