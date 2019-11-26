@@ -8,7 +8,7 @@
       <router-link to="/cancellation" id="cancellationBtn" class="bigBtn">Avbestill time</router-link>
       <router-link to="/aboutUs" id="aboutUsBtn" class="bigBtn">Om oss</router-link><br>
       <router-link to="/yourReservations" id="yourReservationsBtn" class="bigBtn">Dine reservasjoner</router-link>
-      <router-link to="/staff" id="staffBtn" class="bigBtn">Ansatt</router-link>
+      <router-link to="/login" id="staffBtn" class="bigBtn">Ansatt</router-link>
 
       </ul>
     </div>

@@ -24,7 +24,7 @@ routes: [
   { path: "/aboutUs", component: AboutUs },
   { path: "/yourReservations", component: YourReservations },
   { path: "/login", component: Login },
-  { path: "/staff", component: Staff }
+  { path: "/staff", component: Staff },
 ],
 mode: "history"
 });
