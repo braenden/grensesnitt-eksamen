@@ -20,7 +20,7 @@
                 <p class="tidligereTime">14:00 - 15:00, fredag 03.07.2017</p><br>
             </ul>
         </div>
-             <router-link to="/" id="smallBtn4">Tilbake til forsiden</router-link>
+             <router-link to="/" id="smallBtn5">Tilbake til forsiden</router-link>
              <br><br><br>
     </div>
 </template>
@@ -108,7 +108,7 @@ export default {
     border: 1px solid orange;
 }
 
-#smallBtn4 {
+#smallBtn5 {
     background-color: orange;
     color: white;
     font-size: 15px;
@@ -118,8 +118,7 @@ export default {
     width: 150px;
     padding-top: 10px;
     font-weight: bold;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 0px 0px 1px 0px black;  
+    border-radius: 5px 5px 5px 5px; 
 }
 
 #h12 {

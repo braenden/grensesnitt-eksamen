@@ -1,5 +1,5 @@
 <template>
-    <div><hr id="line4">
+    <div><br>
     <div id="container">
     <h1>Reservasjon av time</h1>
         <input v-model="bookingForm.firstName" type="text" placeholder="fornavn" class="inputForm"><br>
@@ -13,18 +13,18 @@
         <input v-model="bookingForm.date" type="date" class="options"><br>
         <input v-model="bookingForm.time" type="time" class="options"><br>
         <button type="button" @click="sendBooking" id="bestill">Bestill time</button><br><br>
-        </div><br>
+        </div><br><br>
         
         <div id="container2">
             <ul>
-                <p class="ledigTime">08:00 - 09:00 - Ledig</p><br>
+                <p class="ledigTime" id="firstObject">08:00 - 09:00 - Ledig</p><br>
                 <p class="opptattTime">09:00 - 10:00 - Opptatt</p><br>
                 <p class="ledigTime">10:00 - 11:00 - Ledig</p><br>
                 <p class="ledigTime">12:00 - 13:00 - Ledig</p><br>
                 <p class="ledigTime">13:00 - 14:00 - Ledig</p><br>
                 <p class="ledigTime">14:00 - 15:00 - Ledig</p><br>
                 <p class="opptattTime">15:00 - 16:00 - Opptatt</p><br>
-                <p class="opptattTime">16:00 - 17:00 - Opptatt</p><br>
+                <p class="opptattTime" id="lastObject">16:00 - 17:00 - Opptatt</p><br>
             </ul>
         </div>
              <router-link to="/" id="smallBtn4">Tilbake til forsiden</router-link>
@@ -81,6 +81,7 @@ export default {
     background-color: rgb(120,120,120);
     border-radius: 5px 5px 5px 5px;
     width: 360px;
+    display: inline-block;
 }
 
 h1 {
@@ -109,8 +110,6 @@ h1 {
     color: white;
     background-color: grey;
     display: inline-block;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 0px 0px 1px 0px black;
     margin-left: -40px;
     height: 40px;
     width: 360px;
@@ -123,14 +122,20 @@ h1 {
     color: white;
     background-color: lightcoral;
     display: inline-block;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 0px 0px 1px 0px black;
     margin-left: -40px;
     height: 40px;
     width: 360px;
     font-weight: bold;
     padding-top: 20px;
     margin-top: -20px;
+}
+
+#firstObject {
+    border-radius: 5px 5px 0px 0px;
+}
+
+#lastObject {
+    border-radius: 0px 0px 5px 5px;
 }
 
 ::placeholder {
@@ -184,10 +189,6 @@ input {
     font-weight: bold;
 }
 
-#line4 {
-    border: 1px solid royalblue;
-}
-
 #smallBtn4 {
     background-color: royalblue;
     color: white;
@@ -198,7 +199,7 @@ input {
     width: 150px;
     padding-top: 10px;
     font-weight: bold;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 0px 0px 1px 0px black;  
+    border: none;
+    border-radius: 5px 5px 5px 5px;  
 }
 </style>
