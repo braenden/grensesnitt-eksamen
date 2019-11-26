@@ -44,8 +44,4 @@
         margin-top: 200px;
         padding: 20px;
     }
-    
-    .loginButton {
-        
-    }
 </style>
