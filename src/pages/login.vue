@@ -20,19 +20,14 @@
         class="inputStyle"
       />
       <br />
-      <button @keyup.enter="login()" id="loginButton" type="button" v-on:click="login()">Login</button>
-=======
-    <div id="loginContainer">
-        <div id="loginBox"><br><br><br>
-        <input type="text" name="username" v-model="input.username" placeholder="Username" class="inputStyle"/><br>
-        <input type="password" name="password" v-model="input.password" placeholder="Password" class="inputStyle"/><br>
-        <button id="loginButton" to="/staff" type="button" v-on:click="login()">Login</button><br><br>
-        <img id="johannes" src="../assets/johannesBrodwall.jpeg">
-        <br><br>
-        <router-link to="/" id="smallBtn8">Tilbake til forsiden</router-link>
-        <br><br><br>
-        </div>
->>>>>>> b2ba9ca91e1ebb6b70db520daaa9fb1b25555a59
+      <button
+        @keyup.enter="login()"
+        id="loginButton"
+        type="button"
+        v-on:click="login()"
+      >
+        Login
+      </button>
     </div>
     <br />
     <br />
