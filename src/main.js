@@ -29,36 +29,6 @@ const router = new VueRouter({
 });
 
 new Vue({
-<<<<<<< HEAD
   router,
   render: h => h(App)
 }).$mount("#app");
-
-/*
-const routes = {
-  "/": homePage,
-  "/contact": contact
-}
-
-new Vue({
-
-  data: {
-    currentRoute: window.location.pathname,
-  },
-
-  computed: {
-    currentComponent(){
- return routes[this.currentRoute];
-    }
-  },
-  render: function (h) {
-    return h(this.currentComponent);
-  }
-}).$mount('#app')
-
-*/
-=======
-  router, 
-  render: h => h(App),
-}).$mount('#app')
->>>>>>> b2ba9ca91e1ebb6b70db520daaa9fb1b25555a59
