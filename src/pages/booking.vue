@@ -61,31 +61,6 @@
     <br />
     <br />
     <br />
-
-    <div id="container2">
-      <ul>
-        <p class="ledigTime">08:00 - 09:00 - Ledig</p>
-        <br />
-        <p class="opptattTime">09:00 - 10:00 - Opptatt</p>
-        <br />
-        <p class="ledigTime">10:00 - 11:00 - Ledig</p>
-        <br />
-        <p class="ledigTime">12:00 - 13:00 - Ledig</p>
-        <br />
-        <p class="ledigTime">13:00 - 14:00 - Ledig</p>
-        <br />
-        <p class="ledigTime">14:00 - 15:00 - Ledig</p>
-        <br />
-        <p class="opptattTime">15:00 - 16:00 - Opptatt</p>
-        <br />
-        <p class="opptattTime">16:00 - 17:00 - Opptatt</p>
-        <br />
-      </ul>
-    </div>
-    <router-link to="/" id="smallBtn4">Tilbake til forsiden</router-link>
-    <br />
-    <br />
-    <br />
   </div>
 </template>
 <script>
