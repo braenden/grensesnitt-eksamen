@@ -4,16 +4,14 @@
         <h1 class="adjustment" id="headline6">Kontakt oss</h1>
         <p class="adjustment" id="info2">Telefon: 971 17 690<br>E-post: <a href="mailto:studentklinikken@kristiania.no?">studentklinikken@kristiania.no</a> <br></p>
 
-
-        <h2 class="adjustment">Gi oss din tilbakemelding</h2>
-        <h4 class="adjustment">Skjema for tilbakemelding</h4>
-        <p class="adjustment" id="tilbakemeldingInfo">Her kan du gi tilbakemelding til klinikken. Vi setter pris på din tilbakemelding om positive ting eller ting som
-            kan forbedres. Meldingen brukes til kvalitetsutbedring av våre tjenester. De blir behandlet av klinikkansvarlig innen for de ulike fagretningene.
+        <h2 class="adjustment">Tilbakemeldinger</h2>
+        <p class="adjustment" id="tilbakemeldingInfo">Har du en tilbakemelding, kan du gjerne sende oss en mail på dette. Vi setter vi pris på både positive ting eller ting som
+            kan forbedres. Det kan brukes til kvalitetsutbedring av våre tjenester. og de blir behandlet av klinikkansvarlig innen de ulike fagretningene.
             Vennligst ikke oppgi sensitive personopplysninger i tilbakemeldingen</p><br>
     
-        <h4 class="adjustment">Skjema for klager</h4>
+        <h2 class="adjustment">Hvis du ønsker å klage på noe</h2>
         <p class="adjustment" id="klageInfo">Klinikken driftes i henhold til relevant lovverk og med faglig kvalifisert personal, der pasientsikkerheten kontinuerlig vurderes.
-            Dersom du har opplevd noe mangelfullt eller kritikkverdig ved Studentklinikken ønsker vi at du melder fra slik at vi kan utbedre avvikene.
+            Dersom du har opplevd noe mangelfullt eller kritikkverdig ved Studentklinikken ønsker vi at du sender oss mail på dette, slik at vi kan utbedre avvikene.
             Klagen blir behandlet av programansvarlige innen for de ulike fagretningene. Vennligst ikke oppgi sensitive personopplysninger i tilbakemeldingen.</p>
             <hr>
             <br>
@@ -30,6 +28,10 @@ export default {
 </script>
 
 <style>
+
+#info2 {
+    margin-bottom: 40px;
+}
 
 #headline6 {
     font-size: 30px;
@@ -51,9 +53,10 @@ export default {
 }
 
 .adjustment {
-text-align: left;
-color: black;
-margin-left: 10px;
+
+    text-align: left;
+    color: black;
+    margin-left: 10px;
 }
 
 #smallBtn2 {
