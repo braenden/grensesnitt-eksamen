@@ -1,33 +1,38 @@
 <template>
-  <div id="loginContainer">
-    <div id="loginBox">
-      <br />
-      <br />
-      <br />
-      <input
-        type="text"
-        name="username"
-        v-model="input.username"
-        placeholder="Username"
-        class="inputStyle"
-      />
-      <br />
-      <input
-        type="password"
-        name="password"
-        v-model="input.password"
-        placeholder="Password"
-        class="inputStyle"
-      />
-      <br />
-      <button
-        @keyup.enter="login()"
-        id="loginButton"
-        type="button"
-        v-on:click="login()"
-      >
-        Login
-      </button>
+  <div>
+    <div id="loginContainer">
+      <div id="loginBox">
+        <br />
+        <br />
+        <br />
+        <input
+          type="text"
+          name="username"
+          v-model="input.username"
+          placeholder="Username"
+          class="inputStyle"
+        />
+        <br />
+        <input
+          type="password"
+          name="password"
+          v-model="input.password"
+          placeholder="Password"
+          class="inputStyle"
+        />
+        <br />
+        <button id="loginButton" to="/staff" type="button" v-on:click="login()">Login</button>
+        <br />
+        <br />
+        <img id="johannes" src="../assets/johannesBrodwall.jpeg" />
+        <!-- Bilde av mannen selv -->
+        <br />
+        <br />
+        <router-link to="/" id="smallBtn8">Tilbake til forsiden</router-link>
+        <br />
+        <br />
+        <br />
+      </div>
     </div>
     <br />
     <br />
