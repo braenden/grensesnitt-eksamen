@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div>
     <ul>
       <router-link to="/aboutUs" id="aboutUsBtn" class="bigBtn">Om oss</router-link>
@@ -8,6 +9,15 @@
       <router-link to="/cancellation" id="cancellationBtn" class="bigBtn">Avbestill time</router-link>
       <router-link to="/yourReservations" id="yourReservationsBtn" class="bigBtn">Dine reservasjoner</router-link>
       <router-link to="/contact" id="contactBtn" class="bigBtn">Kontakt oss</router-link>
+=======
+    <div>
+      <ul>
+      <router-link to="/aboutUs" id="aboutUsBtn" class="bigBtn">Om oss</router-link><br>
+      <router-link to="/booking" id="bookingBtn" class="bigBtn">Reserver time</router-link><br>
+      <router-link to="/cancellation" id="cancellationBtn" class="bigBtn">Avbestill time</router-link><br>
+      <router-link to="/yourReservations" id="yourReservationsBtn" class="bigBtn">Dine reservasjoner</router-link><br>
+      <router-link to="/contact" id="contactBtn" class="bigBtn">Kontakt oss</router-link><br>
+>>>>>>> b2ba9ca91e1ebb6b70db520daaa9fb1b25555a59
       <router-link to="/login" id="staffBtn" class="bigBtn">Ansatt</router-link>
     </ul>
   </div>

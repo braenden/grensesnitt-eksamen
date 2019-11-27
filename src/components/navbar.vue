@@ -11,10 +11,11 @@ position: relative;
 width: 60px;
 height: 60px;
 margin-left: -5px;
-top: 16px;
+top: 10px;
 }
 
 #studentHeader {
+    top: -8px;
     position: relative;
     font-size: 36px;
     margin-right: 0px;
