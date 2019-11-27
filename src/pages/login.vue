@@ -3,11 +3,12 @@
         <div id="loginBox"><br><br><br>
         <input type="text" name="username" v-model="input.username" placeholder="Username" class="inputStyle"/><br>
         <input type="password" name="password" v-model="input.password" placeholder="Password" class="inputStyle"/><br>
-        <router-link id="loginButton" to="/staff" type="button" v-on:click="login()">Login</router-link>
-        </div>
-        <br><br><br>
+        <button id="loginButton" to="/staff" type="button" v-on:click="login()">Login</button><br><br>
+        <img id="johannes" src="../assets/johannesBrodwall.jpeg">
+        <br><br>
         <router-link to="/" id="smallBtn8">Tilbake til forsiden</router-link>
         <br><br><br>
+        </div>
     </div>
 </template>
 
@@ -24,15 +25,10 @@
         },
         methods: {
             login() {
-                if(this.input.username != "" && this.input.password != "") {
-                    if(this.input.username == this.$parent.mockAccount.username && this.input.password == this.$parent.mockAccount.password) {
-                        this.$emit("authenticated", true);
-                        this.$router.replace({ name: "secure" });
+                if(this.input.username != "1" && this.input.password != "1") {
+                    this.$router.replace({name: "staff"})
                     } else {
                         alert("The username and / or password is incorrect");
-                    }
-                } else {
-                    alert("A username and password must be present");
                 }
             }
         }
@@ -41,20 +37,18 @@
 
 <style>
 
-#loginBox {
-    background-color: rgb(120,120,120);
-    display: inline-block;
-    width: 360px;
-    height: 525px;
-    margin-top: 20px;
-    border-radius: 5px 5px 5px 5px; 
-    box-shadow: 0px 0px 1px 0px black;
+#johannes {
+    height: 200px;
+    width: 200px;
 }
 
 .inputStyle {
-    width: 300px;
+    width: 250px;
     height: 30px;
     margin-top: 10px;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 0px 1px 0px black;
 }
 
 #loginButton {
@@ -65,7 +59,7 @@
     width: 120px;
     height: 35px;
     border-radius: 5px 5px 5px 5px;
-    background-color: purple;
+    background-color: darkgoldenrod;
     color: white;
     font-weight: bold;
     padding-top: 10px;

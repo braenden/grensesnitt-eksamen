@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <br />
+  <div id="background">
+    <hr id="line2">
     <div id="container">
       <h1>Reservasjon av time</h1>
       <input v-model="bookingForm.firstName" type="text" placeholder="fornavn" class="inputForm" />
@@ -13,9 +13,8 @@
         v-model="bookingForm.phoneNumber"
         type="text"
         placeholder="telefonnummer"
-        class="inputForm"
+        class="inputForm" id="number"
       />
-      <br />
       <br />
       <select @change="changeTreatment($event)" class="options" id="selectBtn">
         <option>velg behandling</option>
@@ -54,31 +53,6 @@
         <p class="opptattTime">15:00 - 16:00 - Opptatt</p>
         <br />
         <p class="opptattTime" id="lastObject">16:00 - 17:00 - Opptatt</p>
-        <br />
-      </ul>
-    </div>
-    <router-link to="/" id="smallBtn4">Tilbake til forsiden</router-link>
-    <br />
-    <br />
-    <br />
-
-    <div id="container2">
-      <ul>
-        <p class="ledigTime">08:00 - 09:00 - Ledig</p>
-        <br />
-        <p class="opptattTime">09:00 - 10:00 - Opptatt</p>
-        <br />
-        <p class="ledigTime">10:00 - 11:00 - Ledig</p>
-        <br />
-        <p class="ledigTime">12:00 - 13:00 - Ledig</p>
-        <br />
-        <p class="ledigTime">13:00 - 14:00 - Ledig</p>
-        <br />
-        <p class="ledigTime">14:00 - 15:00 - Ledig</p>
-        <br />
-        <p class="opptattTime">15:00 - 16:00 - Opptatt</p>
-        <br />
-        <p class="opptattTime">16:00 - 17:00 - Opptatt</p>
         <br />
       </ul>
     </div>
@@ -132,8 +106,14 @@ export default {
 };
 </script>
 <style>
+#background {
+  margin-left: -10px;
+  background-color: grey;
+  width: 380px;
+  margin-bottom: -10px;
+}
+
 #container {
-  background-color: rgb(120, 120, 120);
   border-radius: 5px 5px 5px 5px;
   width: 360px;
   display: inline-block;
@@ -142,12 +122,12 @@ export default {
 h1 {
   margin-bottom: 0px;
   color: white;
-  padding-top: 10px;
+  padding-top: 0px;
   margin-top: 10px;
 }
 
 .inputForm {
-  background-color: lightgray;
+  background-color: white;
   border: none;
   font-size: 17px;
   text-decoration: none;
@@ -161,9 +141,13 @@ h1 {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
 }
 
+#number {
+  margin-bottom: 10px;
+}
+
 .ledigTime {
   color: white;
-  background-color: grey;
+  background-color: mediumaquamarine;
   display: inline-block;
   margin-left: -40px;
   height: 40px;
@@ -185,14 +169,6 @@ h1 {
   margin-top: -20px;
 }
 
-#firstObject {
-  border-radius: 5px 5px 0px 0px;
-}
-
-#lastObject {
-  border-radius: 0px 0px 5px 5px;
-}
-
 ::placeholder {
   color: rgb(120, 120, 120);
   padding-left: 10px;
@@ -206,7 +182,7 @@ h1 {
   height: 30px;
   border: none;
   border-radius: 5px 5px 5px 5px;
-  background-color: lightgray;
+  background-color: white;
   box-shadow: 0px 0px 1px 0px black;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   font-weight: bold;
@@ -239,14 +215,22 @@ input {
   height: 50px;
   border-radius: 5px 5px 5px 5px;
   background-color: white;
-  color: lightcoral;
+  color: grey;
   border: none;
   font-weight: bold;
 }
 
+#firstObject {
+border-radius: 5px 5px 0px 0px;
+}
+
+#lastObject {
+  border-radius: 0px 0px 5px 5px;
+}
+
 #smallBtn4 {
-  background-color: royalblue;
-  color: white;
+  background-color: white;
+  color: grey;
   font-size: 15px;
   text-decoration: none;
   display: inline-block;
