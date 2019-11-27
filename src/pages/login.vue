@@ -5,6 +5,9 @@
         <input type="password" name="password" v-model="input.password" placeholder="Password" class="inputStyle"/><br>
         <router-link id="loginButton" to="/staff" type="button" v-on:click="login()">Login</router-link>
         </div>
+        <br><br><br>
+        <router-link to="/" id="smallBtn8">Tilbake til forsiden</router-link>
+        <br><br><br>
     </div>
 </template>
 
@@ -39,21 +42,12 @@
 <style>
 
 #loginBox {
-    background-color: white;
+    background-color: rgb(120,120,120);
     display: inline-block;
     width: 360px;
-    height: 400px;
+    height: 525px;
     margin-top: 20px;
-    box-shadow: 0px 0px 1px 0px black;
-}
-
-#loginContainer {
-    background-color: rgb(120, 120, 120);
-    position:fixed;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    margin-top: 20px;
+    border-radius: 5px 5px 5px 5px; 
     box-shadow: 0px 0px 1px 0px black;
 }
 
@@ -76,5 +70,19 @@
     font-weight: bold;
     padding-top: 10px;
     margin-top: 30px;
+}
+
+#smallBtn8 {
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    height: 30px;
+    width: 150px;
+    padding-top: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px 5px 5px 5px;  
 }
 </style>
