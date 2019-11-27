@@ -107,7 +107,6 @@ margin-left: 10px;
     padding-top: 10px;
     font-weight: bold;
     border-radius: 5px 5px 5px 5px;
-    box-shadow: 0px 0px 1px 0px black;  
 }
 
 </style>

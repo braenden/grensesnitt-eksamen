@@ -1,9 +1,10 @@
 <template>
-    <div id="login">
-        <h1>Login</h1>
-        <input type="text" name="username" v-model="input.username" placeholder="Username" /><br>
-        <input type="password" name="password" v-model="input.password" placeholder="Password" /><br>
-        <router-lin class="loginButton" to="/staff" type="button" v-on:click="login()">Login</router-lin>
+    <div id="loginContainer">
+        <div id="loginBox"><br><br><br>
+        <input type="text" name="username" v-model="input.username" placeholder="Username" class="inputStyle"/><br>
+        <input type="password" name="password" v-model="input.password" placeholder="Password" class="inputStyle"/><br>
+        <router-link id="loginButton" to="/staff" type="button" v-on:click="login()">Login</router-link>
+        </div>
     </div>
 </template>
 
@@ -36,16 +37,44 @@
 </script>
 
 <style>
-    #login {
-        width: 320px;
-        border: 1px solid #CCCCCC;
-        background-color: #FFFFFF;
-        margin: auto;
-        margin-top: 200px;
-        padding: 20px;
-    }
-    
-    .loginButton {
-        
-    }
+
+#loginBox {
+    background-color: white;
+    display: inline-block;
+    width: 360px;
+    height: 400px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 1px 0px black;
+}
+
+#loginContainer {
+    background-color: rgb(120, 120, 120);
+    position:fixed;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 1px 0px black;
+}
+
+.inputStyle {
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#loginButton {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-top: 30px;
+}
 </style>

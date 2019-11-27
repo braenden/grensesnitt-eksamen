@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <navbar></navbar>
+    <navbar id="naviPsycho"></navbar>
     <router-view></router-view>
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
   </div>
@@ -22,8 +22,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: black;
   background-color: white;
+}
+
+#naviPsycho {
+  text-align: center;
 }
 </style>
