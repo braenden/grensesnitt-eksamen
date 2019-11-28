@@ -1,7 +1,8 @@
 <template>
-  <div>
+  <div id="background">
     <hr id="line7" />
     <div id="container" @keyup.enter="sendMessage">
+      <h1>Avbestilling av time</h1>
       <input
         v-model="cancellationForm.firstName"
         type="text"
@@ -60,11 +61,24 @@ export default {
 </script>
 
 <style scoped>
+#background {
+  margin-left: -10px;
+  background-color: grey;
+  width: 380px;
+  margin-bottom: -10px;
+}
+
 #container {
-  background-color: rgb(120, 120, 120);
   border-radius: 5px 5px 5px 5px;
   width: 360px;
-  height: 360px;
+  display: inline-block;
+}
+
+h1 {
+  margin-bottom: 0px;
+  color: white;
+  padding-top: 0px;
+  margin-top: 10px;
 }
 
 .inputForm {
@@ -106,7 +120,7 @@ export default {
   height: 50px;
   border-radius: 5px 5px 5px 5px;
   background-color: white;
-  color: lightcoral;
+  color: grey;
   border: none;
   font-weight: bold;
 }
@@ -125,8 +139,8 @@ input {
 }
 
 #smallBtn4 {
-  background-color: royalblue;
-  color: white;
+  background-color: white;
+  color: grey;
   font-size: 15px;
   text-decoration: none;
   display: inline-block;
@@ -134,7 +148,7 @@ input {
   width: 150px;
   padding-top: 10px;
   font-weight: bold;
+  border: none;
   border-radius: 5px 5px 5px 5px;
-  box-shadow: 0px 0px 1px 0px black;
 }
 </style>

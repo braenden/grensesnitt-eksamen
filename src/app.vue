@@ -12,6 +12,16 @@ export default {
   name: "app",
   components: {
     navbar: Navbar
+  },
+  data() {
+    return {
+      mobile: window.innerWidth <= 700
+    };
+  },
+  created() {
+    addEventListener("resize", () => {
+      this.mobile = innerWidth <= 700;
+    });
   }
 };
 </script>
