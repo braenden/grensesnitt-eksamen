@@ -1,12 +1,11 @@
 <template>
     <div>
-
         <h1 id="sjuk_i_hue">Ansatt: Gunnar</h1>
         <div id="container5" class="containerz">
       <ul>
         <p id="firstObject22">Mandag</p>
         <br />
-        <p class="opptattTime1">09:00 - 10:00<br>(Erik)</p>
+        <p class="opptattTime1">09:00 - 10:00<br>Erik  (Akupunktur)</p>
         <br />
         <p class="ledigTime1">10:00 - 11:00 - Ledig</p>
         <br />
@@ -22,7 +21,6 @@
         <br />
       </ul>
     </div>
-
         <div class="containerz">
       <ul>
         <p id="firstObject22">Tirsdag</p>
@@ -33,9 +31,9 @@
         <br />
         <p class="ledigTime1">11:00 - 12:00 - Ledig</p>
         <br />
-        <p class="opptattTime1">12:00 - 13:00<br>(Hassan)</p>
+        <p class="opptattTime1">12:00 - 13:00<br> Hassan (Osteopati)</p>
         <br />
-        <p class="opptattTime1">13:00 - 14:00<br>(Marianne)</p>
+        <p class="opptattTime1">13:00 - 14:00<br> Marianne (Akupunktur)</p>
         <br />
         <p class="ledigTime1">14:00 - 15:00 - Ledig</p>
         <br />
@@ -43,14 +41,13 @@
         <br />
       </ul>
     </div>
-
     <div class="containerz">
       <ul>
         <p id="firstObject22">Onsdag</p>
         <br />
         <p class="ledigTime1">09:00 - 10:00 - Ledig</p>
         <br />
-        <p class="opptattTime1">10:00 - 11:00<br>(Ole)</p>
+        <p class="opptattTime1">10:00 - 11:00<br> Ole (Osteopati)</p>
         <br />
         <p class="ledigTime1">11:00 - 12:00 - Ledig</p>
         <br />
@@ -64,7 +61,6 @@
         <br />
       </ul>
     </div>
-
     <div class="containerz">
       <ul>
         <p id="firstObject22">Torsdag</p>
@@ -77,7 +73,7 @@
         <br />
         <p class="ledigTime1">12:00 - 13:00 - Ledig</p>
         <br />
-        <p class="opptattTime1">13:00 - 14:00<br>(Petter)</p>
+        <p class="opptattTime1">13:00 - 14:00<br> Petter (Fysiologisk testlab)</p>
         <br />
         <p class="ledigTime1">14:00 - 15:00 - Ledig</p>
         <br />
@@ -85,7 +81,6 @@
         <br />
       </ul>
     </div>
-
     <div class="containerz">
       <ul>
         <p id="firstObject22">Fredag</p>
@@ -94,19 +89,18 @@
         <br />
         <p class="ledigTime1">10:00 - 11:00 - Ledig</p>
         <br />
-        <p class="opptattTime1">11:00 - 12:00<br>(Hanne)</p>
+        <p class="opptattTime1">11:00 - 12:00<br> Hanne (Osteopati)</p>
         <br />
         <p class="ledigTime1">12:00 - 13:00 - Ledig</p>
         <br />
         <p class="ledigTime1">13:00 - 14:00 - Ledig</p>
         <br />
-        <p class="opptattTime1">14:00 - 15:00<br>(Vilde)</p>
+        <p class="opptattTime1">14:00 - 15:00<br> Vilde (Kostholdsveiledning)</p>
         <br />
         <p class="ledigTime1" id="lastObject22">15:00 - 16:00 - Ledig</p>
         <br />
       </ul>
     </div>
-
         <div id="container10">
       <ul>
         <p id="firstObject22">Kunder</p>
@@ -129,7 +123,7 @@
         <br />
         <p class="kunder">Cathrine</p>
         <br />
-        <p class="kunder">Amund</p>
+        <p class="kunder">Amund </p>
         <br />
         <p class="kunder" id="lastObject22">Trygve</p>
         <br />
@@ -137,40 +131,33 @@
     </div>
     </div>
 </template>
-
 <script>
 export default {
     name: "staff"
 }
 </script>
-
 <style>
-
 #container5 {
     margin-left: -100px;
 }
-
 #sjuk_i_hue {
     color: black;
     position: absolute;
     top: 20px;
     left: 30px;
 }
-
 .containerz {
     margin-left: -50px;
-    margin-top: -1700px;
+    margin-top: 110px;
     display: inline-block;
 }
-
 #container10 {
     display: inline-block;
     margin-left: 20px;
     margin-top: 50px;
 }
-
 #firstKunder {
-  border-radius: 5px 5px 0px 0px; 
+  border-radius: 5px 5px 0px 0px;
   color: white;
   background-color: black;
   display: inline-block;
@@ -181,7 +168,6 @@ export default {
   padding-top: 20px;
   margin-top: -20px;
 }
-
 .kunder {
   color: white;
   background-color: grey;
@@ -194,10 +180,9 @@ export default {
   margin-top: -30px;
   box-shadow: 0px 0px 1px 0px black;
 }
-
 .ledigTime1 {
   color: white;
-  background-color: mediumaquamarine;
+  background-color:indianred;
   display: inline-block;
   margin-left: 0px;
   height: 60px;
@@ -206,7 +191,6 @@ export default {
   padding-top: 20px;
   margin-top: -20px;
 }
-
 .opptattTime1 {
   color: white;
   background-color: lightcoral;
@@ -218,22 +202,19 @@ export default {
   padding-top: 20px;
   margin-top: -20px;
 }
-
 #firstObject22 {
-  border-radius: 5px 5px 0px 0px; 
+  border-radius: 5px 5px 0px 0px;
   color: white;
   background-color: black;
   display: inline-block;
   margin-left: 0px;
-  height: 60px;
+  height: 40px;
   width: 280px;
   font-weight: bold;
   padding-top: 20px;
   margin-top: -20px;
 }
-
 #lastObject22 {
   border-radius: 0px 0px 5px 5px;
 }
-
 </style>

@@ -23,11 +23,11 @@
       <button id="loginButton" to="/staff" type="button" v-on:click="login()">Login</button>
       <br />
       <br />
-      <img id="johannes" src="../assets/johannesBrodwall.jpeg" />
+      <!-- <img id="johannes" src="../assets/johannesBrodwall.jpeg" /> -->
       <!-- Bilde av mannen selv -->
       <br />
       <br />
-      <router-link to="/" id="smallBtn8">Tilbake til forsiden</router-link>
+      <!-- <router-link to="/" id="smallBtn8">Tilbake til forsiden</router-link> -->
       <br />
       <br />
       <br />
@@ -80,11 +80,12 @@ export default {
   font-size: 20px;
   width: 120px;
   height: 35px;
+  border: none;
   border-radius: 5px 5px 5px 5px;
   background-color: darkgoldenrod;
   color: white;
   font-weight: bold;
-  padding-top: 10px;
+  padding-top: 0px;
   margin-top: 30px;
 }
 

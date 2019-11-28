@@ -20,7 +20,7 @@
       <input
         v-model="cancellationForm.email"
         type="text"
-        placeholder="Email addresse"
+        placeholder="epost"
         class="inputForm"
       />
       <br />
@@ -65,6 +65,7 @@ export default {
   margin-left: -10px;
   background-color: grey;
   width: 380px;
+  height: 758px;
   margin-bottom: -10px;
 }
 
@@ -82,7 +83,7 @@ h1 {
 }
 
 .inputForm {
-  background-color: lightgray;
+  background-color: white;
   border: none;
   font-size: 17px;
   text-decoration: none;
@@ -97,7 +98,7 @@ h1 {
 }
 
 .messageForm {
-  background-color: lightgray;
+  background-color: white;
   border: none;
   font-size: 17px;
   text-decoration: none;
@@ -135,12 +136,12 @@ input {
 }
 
 #line7 {
-  border: 1px solid lightseagreen;
+  border: 1px solid grey;
 }
 
 #smallBtn4 {
   background-color: white;
-  color: grey;
+  color: lightseagreen;
   font-size: 15px;
   text-decoration: none;
   display: inline-block;

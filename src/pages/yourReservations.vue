@@ -2,22 +2,24 @@
     <div>
         <hr id="line5">
         <h1 id="h11">Dine reservasjoner</h1>
+        <br>
         <div>
             <ul>
-                <p class="reservertTime">09:00 - 10:00, torsdag 07.09.2020</p><br>
+                <p class="reservertTime" id="firstie11">09:00 - 10:00, torsdag 07.09.2020</p><br>
                 <p class="reservertTime">15:00 - 16:00, mandag 27.11.2020</p><br>
-                <p class="reservertTime">16:00 - 17:00, tirsdag 03.01.2022</p>
+                <p class="reservertTime" id="lastie11">16:00 - 17:00, tirsdag 03.01.2022</p>
             </ul>
         </div>
 
-        <h2 id="h12">Dine tidligere timer</h2>
+        <h1 id="h12">Dine tidligere timer</h1>
+        <br>
              <div>
             <ul>
-                <p class="tidligereTime">08:00 - 09:00, tirsdag 19.01.2019</p><br>
+                <p class="tidligereTime" id="firstie11">08:00 - 09:00, tirsdag 19.01.2019</p><br>
                 <p class="tidligereTime">10:00 - 11:00, tirsdag 28.02.2018</p><br>
                 <p class="tidligereTime">12:00 - 13:00, onsdag 22.01.2018</p><br>
                 <p class="tidligereTime">13:00 - 14:00, fredag 19.12.2017</p><br>
-                <p class="tidligereTime">14:00 - 15:00, fredag 03.07.2017</p><br>
+                <p class="tidligereTime" id="lastie11">14:00 - 15:00, fredag 03.07.2017</p><br>
             </ul>
         </div>
              <router-link to="/" id="smallBtn5">Tilbake til forsiden</router-link>
@@ -80,28 +82,32 @@ export default {
     color: white;
     background-color: grey;
     display: inline-block;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 0px 0px 1px 0px black;
     margin-left: -40px;
     height: 40px;
     width: 360px;
     font-weight: bold;
     padding-top: 20px;
-    margin-top: 0px;
+    margin-top: -30px;
 }
 
 .reservertTime {
     color: white;
     background-color: lightcoral;
     display: inline-block;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 0px 0px 1px 0px black;
     margin-left: -40px;
     height: 40px;
     width: 360px;
     font-weight: bold;
     padding-top: 20px;
-    margin-top: 0px;
+    margin-top: -30px;
+}
+
+#firstie11 {
+border-radius: 5px 5px 0px 0px;
+}
+
+#lastie11{
+border-radius: 0px 0px 5px 5px;
 }
 
 #line5 {
@@ -122,6 +128,6 @@ export default {
 }
 
 #h12 {
-    margin-top: 0px;
+    color: black;
 }
 </style>

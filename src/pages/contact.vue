@@ -1,6 +1,6 @@
 <template>
     <div>
-        <hr id="line2">
+        <hr id="line100">
         <h1 class="adjustment" id="headline6">Kontakt oss</h1>
         <p class="adjustment" id="info2">Telefon: 971 17 690<br>E-post: <a href="mailto:studentklinikken@kristiania.no?">studentklinikken@kristiania.no</a> <br></p>
 
@@ -38,7 +38,7 @@ export default {
     margin-bottom: -10px;
 }
 
-#line2 {
+#line100 {
     border: 1px solid salmon;
 }
 

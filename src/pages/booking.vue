@@ -147,7 +147,7 @@ h1 {
 
 .ledigTime {
   color: white;
-  background-color: mediumaquamarine;
+  background-color: indianred;
   display: inline-block;
   margin-left: -40px;
   height: 40px;
@@ -215,7 +215,7 @@ input {
   height: 50px;
   border-radius: 5px 5px 5px 5px;
   background-color: white;
-  color: grey;
+  color: salmon;
   border: none;
   font-weight: bold;
 }
@@ -230,7 +230,7 @@ border-radius: 5px 5px 0px 0px;
 
 #smallBtn4 {
   background-color: white;
-  color: grey;
+  color: salmon;
   font-size: 15px;
   text-decoration: none;
   display: inline-block;
@@ -240,5 +240,9 @@ border-radius: 5px 5px 0px 0px;
   font-weight: bold;
   border: none;
   border-radius: 5px 5px 5px 5px;
+}
+
+#line2 {
+  border: 1px solid grey;
 }
 </style>
