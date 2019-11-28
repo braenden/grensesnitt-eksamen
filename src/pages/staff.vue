@@ -4,7 +4,7 @@
         <h1 id="sjuk_i_hue">Ansatt: Gunnar</h1>
         <div id="container5" class="containerz">
       <ul>
-        <p id="firstObject">Mandag</p>
+        <p id="firstObject22">Mandag</p>
         <br />
         <p class="opptattTime1">09:00 - 10:00<br>(Erik)</p>
         <br />
@@ -18,14 +18,14 @@
         <br />
         <p class="ledigTime1">14:00 - 15:00 - Ledig</p>
         <br />
-        <p class="ledigTime1" id="lastObject">15:00 - 16:00 - Ledig</p>
+        <p class="ledigTime1" id="lastObject22">15:00 - 16:00 - Ledig</p>
         <br />
       </ul>
     </div>
 
         <div class="containerz">
       <ul>
-        <p id="firstObject">Tirsdag</p>
+        <p id="firstObject22">Tirsdag</p>
         <br />
         <p class="ledigTime1">09:00 - 10:00 - Ledig</p>
         <br />
@@ -39,14 +39,14 @@
         <br />
         <p class="ledigTime1">14:00 - 15:00 - Ledig</p>
         <br />
-        <p class="ledigTime1" id="lastObject">15:00 - 16:00</p>
+        <p class="ledigTime1" id="lastObject22">15:00 - 16:00</p>
         <br />
       </ul>
     </div>
 
     <div class="containerz">
       <ul>
-        <p id="firstObject">Onsdag</p>
+        <p id="firstObject22">Onsdag</p>
         <br />
         <p class="ledigTime1">09:00 - 10:00 - Ledig</p>
         <br />
@@ -60,14 +60,14 @@
         <br />
         <p class="ledigTime1">14:00 - 15:00 - Ledig</p>
         <br />
-        <p class="ledigTime1" id="lastObject">15:00 - 16:00 - Ledig</p>
+        <p class="ledigTime1" id="lastObject22">15:00 - 16:00 - Ledig</p>
         <br />
       </ul>
     </div>
 
     <div class="containerz">
       <ul>
-        <p id="firstObject">Torsdag</p>
+        <p id="firstObject22">Torsdag</p>
         <br />
         <p class="ledigTime1">09:00 - 10:00 - Ledig</p>
         <br />
@@ -81,14 +81,14 @@
         <br />
         <p class="ledigTime1">14:00 - 15:00 - Ledig</p>
         <br />
-        <p class="ledigTime1" id="lastObject">15:00 - 16:00 - Ledig</p>
+        <p class="ledigTime1" id="lastObject22">15:00 - 16:00 - Ledig</p>
         <br />
       </ul>
     </div>
 
     <div class="containerz">
       <ul>
-        <p id="firstObject">Fredag</p>
+        <p id="firstObject22">Fredag</p>
         <br />
         <p class="ledigTime1">09:00 - 10:00 - Ledig</p>
         <br />
@@ -102,14 +102,14 @@
         <br />
         <p class="opptattTime1">14:00 - 15:00<br>(Vilde)</p>
         <br />
-        <p class="ledigTime1" id="lastObject">15:00 - 16:00 - Ledig</p>
+        <p class="ledigTime1" id="lastObject22">15:00 - 16:00 - Ledig</p>
         <br />
       </ul>
     </div>
 
         <div id="container10">
       <ul>
-        <p id="firstKunder">Kunder</p>
+        <p id="firstObject22">Kunder</p>
         <br />
         <p class="kunder">Erik</p>
         <br />
@@ -131,7 +131,7 @@
         <br />
         <p class="kunder">Amund</p>
         <br />
-        <p class="kunder" id="lastObject">Trygve</p>
+        <p class="kunder" id="lastObject22">Trygve</p>
         <br />
       </ul>
     </div>
@@ -153,20 +153,20 @@ export default {
 #sjuk_i_hue {
     color: black;
     position: absolute;
-    top: 30px;
+    top: 20px;
     left: 30px;
 }
 
 .containerz {
     margin-left: -50px;
-    margin-top: 0px;
+    margin-top: -1700px;
     display: inline-block;
 }
 
 #container10 {
     display: inline-block;
     margin-left: 20px;
-    margin-top: -50px;
+    margin-top: 50px;
 }
 
 #firstKunder {
@@ -219,7 +219,7 @@ export default {
   margin-top: -20px;
 }
 
-#firstObject {
+#firstObject22 {
   border-radius: 5px 5px 0px 0px; 
   color: white;
   background-color: black;
@@ -232,7 +232,7 @@ export default {
   margin-top: -20px;
 }
 
-#lastObject {
+#lastObject22 {
   border-radius: 0px 0px 5px 5px;
 }
 
