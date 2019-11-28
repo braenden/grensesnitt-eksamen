@@ -25,7 +25,7 @@ export default {
   },
   methods: {
     login() {
-      if (this.input.username == "admin" && this.input.password == "password") {
+      if (this.input.username == "Gunnar" && this.input.password == "1234") {
         this.$router.replace({ name: "staff" });
       } else {
         alert("The username or password is incorrect");
