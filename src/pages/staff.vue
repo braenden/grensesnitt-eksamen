@@ -121,14 +121,12 @@
         <br />
         <p class="kunder">Kari</p>
         <br />
-        <p class="kunder">Cathrine</p>
-        <br />
-        <p class="kunder">Amund </p>
-        <br />
         <p class="kunder" id="lastObject22">Trygve</p>
         <br />
       </ul>
     </div>
+
+    <router-link to="/login" id="logout">Logg ut</router-link>
     </div>
 </template>
 <script>
@@ -137,6 +135,22 @@ export default {
 }
 </script>
 <style>
+
+#logout{
+position: absolute;
+right: 80px;
+top: 40px;
+    background-color: salmon;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    height: 30px;
+    width: 150px;
+    padding-top: 10px;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px; 
+}
 #container5 {
     margin-left: -100px;
 }
@@ -147,14 +161,17 @@ export default {
     left: 30px;
 }
 .containerz {
+  left: -150px;
+  position: relative;
     margin-left: -50px;
-    margin-top: 110px;
+    margin-top: 40px;
     display: inline-block;
 }
 #container10 {
+position: absolute;
     display: inline-block;
-    margin-left: 20px;
-    margin-top: 50px;
+    margin-left: -150px;
+    margin-top: 40px;
 }
 #firstKunder {
   border-radius: 5px 5px 0px 0px;
@@ -173,7 +190,7 @@ export default {
   background-color: grey;
   display: inline-block;
   margin-left: 0px;
-  height: 40px;
+  height: 43px;
   width: 280px;
   font-weight: bold;
   padding-top: 20px;
